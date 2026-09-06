@@ -23,8 +23,7 @@ This project implements a reproducible simulation-to-ML pipeline for the heat eq
 - configurable YAML-based experiments
 - PyTorch training pipeline for MLP, CNN, and FNO-style models
 - in-distribution and out-of-distribution evaluation
-- automated comparison tables and plots
-- technical LaTeX report with mathematical details
+
 
 ---
 
