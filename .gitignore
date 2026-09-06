@@ -1,51 +1,18 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.pytest_cache/
-.mypy_cache/
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# OS/editor
-.DS_Store
-.vscode/
-.idea/
-
-# Large generated data
+# Generated datasets
 data/**/*.npz
 
 # Model checkpoints
 checkpoints/**/*.pt
 checkpoints/**/*.pth
 
-# Temporary files
-*.log
-*.tmp
-
-# env
-.venv/
-
-# LaTeX auxiliary files
-reports/*.aux
-reports/*.log
-reports/*.out
-reports/*.toc
-reports/*.synctex.gz
-
-# Keep directory placeholders
-!data/**/.gitkeep
-!checkpoints/**/.gitkeep
-!results/**/.gitkeep
-!plots/**/.gitkeep
-
 # Python package metadata
 *.egg-info/
 src/*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Keep placeholders
+!data/**/.gitkeep
+!checkpoints/**/.gitkeep
