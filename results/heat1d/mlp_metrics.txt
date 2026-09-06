@@ -1,0 +1,10 @@
+Model: mlp
+Dimension: 1D
+Trainable parameters: 197760
+Best validation loss: 4.310693984734826e-05
+
+In-distribution test:
+{'loss': 4.024037771159783e-05, 'mse': 4.024037771159783e-05, 'mae': 0.004642933886498213, 'relative_l2': 0.015426404401659965}
+
+OOD test:
+{'loss': 0.00045715210144408046, 'mse': 0.00045715210144408046, 'mae': 0.015550247393548489, 'relative_l2': 0.05474501177668571}

@@ -1,0 +1,10 @@
+Model: cnn
+Dimension: 1D
+Trainable parameters: 62657
+Best validation loss: 2.417645991954487e-05
+
+In-distribution test:
+{'loss': 2.519606878195191e-05, 'mse': 2.519606878195191e-05, 'mae': 0.002864225395023823, 'relative_l2': 0.011969580687582493}
+
+OOD test:
+{'loss': 0.0010909417178481817, 'mse': 0.0010909417178481817, 'mae': 0.02556646093726158, 'relative_l2': 0.084673972427845}

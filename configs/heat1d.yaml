@@ -1,0 +1,41 @@
+problem:
+  name: heat1d
+  dim: 1
+  nx: 128
+  length: 1.0
+  total_time: 0.10
+
+data:
+  train_samples: 2000
+  val_samples: 300
+  test_samples: 300
+  ood_samples: 300
+
+alpha:
+  train_min: 0.005
+  train_max: 0.030
+  ood_min: 0.035
+  ood_max: 0.060
+
+solver:
+  stability_factor: 0.40
+
+training:
+  batch_size: 64
+  learning_rate: 0.001
+  epochs: 80
+  seed: 42
+
+models:
+  mlp:
+    hidden_dim: 256
+    num_hidden_layers: 3
+
+  cnn:
+    hidden_channels: 64
+    kernel_size: 5
+
+  fno:
+    width: 64
+    n_modes: 16
+    n_blocks: 4

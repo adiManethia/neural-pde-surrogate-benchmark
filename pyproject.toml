@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-pde-benchmark"
+version = "0.1.0"
+description = "Configurable PyTorch benchmark for 1D/2D PDE surrogate modelling with CNN and Fourier Neural Operator-style models."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Aditya Kumar Manethia"}
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "pandas",
+    "torch",
+    "tqdm",
+    "pyyaml"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

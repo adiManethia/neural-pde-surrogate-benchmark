@@ -1,0 +1,43 @@
+problem:
+  name: heat2d
+  dim: 2
+  nx: 32
+  ny: 32
+  length: 1.0
+  total_time: 0.05
+
+data:
+  train_samples: 2000
+  val_samples: 300
+  test_samples: 300
+  ood_samples: 300
+
+alpha:
+  train_min: 0.005
+  train_max: 0.030
+  ood_min: 0.035
+  ood_max: 0.060
+
+solver:
+  stability_factor: 0.20
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 80
+  seed: 42
+
+models:
+  mlp:
+    hidden_dim: 512
+    num_hidden_layers: 3
+
+  cnn:
+    hidden_channels: 64
+    kernel_size: 5
+
+  fno:
+    width: 32
+    n_modes_x: 12
+    n_modes_y: 12
+    n_blocks: 4

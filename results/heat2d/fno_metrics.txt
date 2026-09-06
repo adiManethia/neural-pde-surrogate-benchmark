@@ -1,0 +1,10 @@
+Model: fno
+Dimension: 2D
+Trainable parameters: 1188385
+Best validation loss: 1.0409671858724322e-06
+
+In-distribution test:
+{'loss': 1.0840298102721136e-06, 'mse': 1.0840298102721136e-06, 'mae': 0.0007105289201717824, 'relative_l2': 0.004536838131025433}
+
+OOD test:
+{'loss': 5.5806443197070624e-05, 'mse': 5.5806443197070624e-05, 'mae': 0.005592574132606387, 'relative_l2': 0.03450532779097557}
