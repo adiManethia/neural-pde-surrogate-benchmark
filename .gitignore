@@ -1,0 +1,25 @@
+# Generated datasets
+data/**/*.npz
+
+# Model checkpoints
+checkpoints/**/*.pt
+checkpoints/**/*.pth
+
+# Python package metadata
+*.egg-info/
+src/*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Keep placeholders
+!data/**/.gitkeep
+!checkpoints/**/.gitkeep
+
+# LaTeX auxiliary files
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+reports/*.synctex.gz
