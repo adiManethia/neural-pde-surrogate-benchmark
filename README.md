@@ -221,21 +221,7 @@ A detailed LaTeX report is included in [`reports/`](reports/), covering:
 - in-distribution and OOD evaluation
 - result analysis, limitations, and future work
 
----
 
-## Skills demonstrated
-
-- Scientific machine learning
-- PDE surrogate modelling
-- PyTorch training pipelines
-- Neural operator concepts
-- Finite-difference simulation
-- 1D and 2D field prediction
-- OOD generalization testing
-- Model comparison and scientific visualization
-- Configurable Python package design
-
----
 
 ## Limitations and future work
 
